@@ -33,7 +33,7 @@
         <dependency>
             <groupId>org.apache.flume</groupId>
             <artifactId>flume-ng-node</artifactId>
-            <version>1.4.0</version>
+            <version>1.9.0</version>
         </dependency>
         <!-- Required for logging -->
         <dependency>
@@ -75,7 +75,7 @@
                     <configuration>
                         <source>1.7</source>
                         <target>1.7</target>
-                        <compilerArgument></compilerArgument>
+                        <compilerArgument/>
                         <fork>true</fork>
                     </configuration>
                 </plugin>
