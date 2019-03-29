@@ -73,7 +73,7 @@
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
-            <version>9.4-1202-jdbc41</version>
+            <version>42.2.5</version>
             <type>jar</type>
         </dependency>
         <!-- Required for logging -->
@@ -149,7 +149,7 @@
                     <configuration>
                         <source>1.7</source>
                         <target>1.7</target>
-                        <compilerArgument></compilerArgument>
+                        <compilerArgument/>
                         <fork>true</fork>
                     </configuration>
                 </plugin>
